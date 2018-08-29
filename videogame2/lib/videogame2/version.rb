@@ -1,3 +1,3 @@
-module Videogame1
+module Videogame2
   VERSION = "0.1.0"
 end

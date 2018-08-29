@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "videogame1/version"
+require "videogame2/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "videogame1"
-  spec.version       = Videogame1::VERSION
+  spec.name          = "videogame2"
+  spec.version       = Videogame2::VERSION
   spec.authors       = ["'William J Teskey'"]
   spec.email         = ["'willjteskey@gmail.com'"]
 
