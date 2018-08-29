@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "videogame2/version"
+require "rubyproj/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "videogame2"
-  spec.version       = Videogame2::VERSION
+  spec.name          = "rubyproj"
+  spec.version       = Rubyproj::VERSION
   spec.authors       = ["'William J Teskey'"]
   spec.email         = ["'willjteskey@gmail.com'"]
 
